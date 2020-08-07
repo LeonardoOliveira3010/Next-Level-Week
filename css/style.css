@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --color-background: #F0F0F7;
+    --color-primary-lighter: #9871F5;
+    --color-primary-light: #916BEA;
+    --color-primary: #8257E5;
+    --color-primary-dark: #774DD6;
+    --color-primary-darker: #6842c2;
+    --color-secondary: #04D361;
+    --color-secondary-dark: #04BF58;
+    --color-title-in-primary: #FFFFFF;
+    --color-text-in-primary: #D4C2FF;
+    --color-text-title: #32264D;
+    --color-text-complement: #9C98A6;
+    --color-text-base: #6A6180;
+    --color-line-in-white: #FFFFFF;
+    --color-input-background: #F8F8FC;
+    --color-button-text: #FFFFFF;
+    --color-box-base: #FFFFFF;
+    --color-box-footer: #FAFAFC;
+    --color-small-info: #C1BCCC;
+    font-size: 60%; /* controle das medidas rem */
+}
+:focus{
+    outline: none;
+}
+
+html, body{
+    height: 820px;
+    height: 100vh;
+    background-color: var(--color-primary);
+}
+
+body, button, input, textarea{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    color: var(--color-text-base#6A6180);
+}
+
+.first-page{
+    display: flex;
+}
+
+.intro{
+    width: 434px;
+    height: 227px;
+    margin-top: 110px;
+    margin-left: 160px;
+    margin-right: 88px;    
+}
+
+.intro p{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.landing{
+    width: 599px;
+    height: 350px;
+    margin-top: 50px;
+}
+
+.btn{
+    display: flex;
+    height: 100px;
+    margin-top: 50px; 
+    
+}
+
+.btn a{
+    transition: background 0.5s;
+}
+
+.btn__estudar{
+    background: #9871F5;
+    border: none;
+    margin-right: 20px;
+    width: 280px;
+    margin-left: 160px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 2.5rem;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.btn__dar-aulas{
+    background:#04D361;
+    border: none;
+    margin-right: 0;
+    width: 280px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.btn a{
+    font-family: Archivo;
+}
+
+.btn__estudar:hover{
+    background:#774DD6;
+    
+}
+
+.btn__dar-aulas:hover{
+    background: #04BF58;
+}
+
+.fas{
+    padding: 10px;
+}
+
+.copy{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+.fa-heart:before {
+    content: "\f004";
+    color: #32264D;
+}
+

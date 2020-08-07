@@ -1,0 +1,52 @@
+@media(min-width:320px) and (max-width:600px){
+    .first-page{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro{
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+        height: 100px;
+    }
+
+    .intro img{
+        width: 50%;
+    }
+
+    .landing{
+        width: 100%;
+        height: 50%;
+        margin-top: 20px;
+    }
+    .landing img{
+        width: 100%;
+        
+    }
+
+    .btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 45px;
+        
+    }
+
+    .btn__estudar{
+        width: 200px;
+        margin: 0 10px;
+        padding-top: 30px;
+        font-size: 2rem;
+    }
+
+    .btn__dar-aulas{
+        width: 200px;
+        margin: 0 10px;
+        padding-top: 30px;
+        font-size: 2rem;
+    }
+
+    .copy{
+        margin-left: 10px;
+    }
+}

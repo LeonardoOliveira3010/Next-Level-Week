@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* html, body{
+    /* height: 820px; */
+
+} */
+
+
+#page-study #container{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+#search-teacher{
+    margin: 1rem 1rem;
+    
+}
+
+#search-teacher label{
+    color: #D4C2FF;
+}
+
+#search-teacher .select-block{
+    margin-bottom: 1rem;
+}
+
+#search-teacher button{
+    width: 100%;
+    height: 4rem;
+    background-color: #04D361;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font: 700 1rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background 0.5s;
+    margin-top: 2rem;
+}
+
+#search-teacher button:hover{
+    background-color: #04BF58;
+}
+
+#search-teacher{
+    margin: 1rem 2rem;
+    
+}
+
+#page-study main{
+    margin: 2rem auto;
+    width: 90%;
+}
+
+.teacher-item{
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+}
+
+.teacher-item header{
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.teacher-item header img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+
+.teacher-item header div{
+    margin-left: 1.5rem;
+}
+
+.teacher-item header div strong{
+    font: 700 1.4rem Archivo;
+    display: block;
+    color: #32264D;
+}
+
+.teacher-item header div span{
+    font-size: 1rem;
+    display: block;
+    margin-top: .2rem;
+}
+
+.teacher-item > p{
+    padding: 0 1rem;
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+.teacher-item footer{
+    padding: 1.2rem 1rem;
+    background-color: #FAFAFC;
+    border-top: 1px solid #FFFFFF;
+    margin-top: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teacher-item footer p{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: #9C98A6;
+}
+
+.teacher-item footer p strong{
+    font-size: 1.2rem;
+    color: #8257E5;
+    display: block;
+}
+
+.teacher-item footer button{
+    width: 10rem;
+    height: 2.8rem;
+    background-color: #04D361;
+    color: #FFFFFF;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
+    font: 700 0.7rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    transition: background 0.5s;
+    margin-left: 0.8rem;
+}
+
+.teacher-item footer button:hover{
+
+    background-color: #04BF58;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 700px){
+
+    #search-teacher button{
+        margin-top: 25px;
+        
+    }
+
+    /* #search-teacher{
+        margin: 1rem 97px;
+    } */
+
+    #page-study #container{
+        max-width: 100vw;
+    }
+
+    .page-header{
+        height: 340px;
+    }
+
+    .page-header .top-bar-container{
+        max-width: 1100px;
+    }
+
+    .page-header .header-content{
+        max-width: 740px;
+        flex: 1 1;
+        padding-bottom: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .teacher-item header, .teacher-item footer{
+        padding: 32px;
+    }
+
+    #search-teacher{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-self: center;
+        gap: 16px;
+        position: absolute;
+        width: 60%;
+        top: 265px;
+    }
+
+    #page-study main{
+        padding: 32px 0;
+        max-width: 740px;
+        margin: 0 auto;
+
+    }
+
+    #search-teacher .select-block{
+        margin-bottom: 0;
+    }
+
+    .teacher-item footer p strong{
+        display: initial;
+        margin-left: 15px;
+    }
+
+    .teacher-item > p{
+        padding : 0 32px
+    }
+
+
+
+    /* .input-block input:hover{
+        background-color: black;
+    } */
+
+}

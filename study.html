@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Fontes Utilizadas-->
+    <link href="https://fonts.googleapis.com/css2?family=Archivo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,700&display=swap" rel="stylesheet">
+
+    <!--Estilo-->
+   
+    <link rel="stylesheet" href="./css/partials/study.css">
+    <link rel="stylesheet" href="./css/partials/header.css">
+    <link rel="stylesheet" href="./css/partials/forms.css">
+
+    <title>Proffy</title>
+</head>
+<body id="page-study">
+    <div id="container">
+        <header class="page-header">
+           <div class="top-bar-container">
+               <a href="/"><img src="./images/icons/back.svg" alt=""></a>
+               <a href=""><img src="./images/logo.svg" alt=""></a>
+           </div> 
+
+           <div class="header-content">
+              <strong>Esses são os Proffys disponiveis</strong> 
+           </div>
+           <form id="search-teacher" >
+                <div class="select-block">
+                    <label for="subject">Matéria</label>
+                    <select name="subject" id="subject">
+                        <option value="" disabled="" hidden="">Selecione uma opção</option>
+                        <option value="1">Artes</option>
+                        <option value="2">Biologia</option>
+                        <option value="3">Ciências</option>
+                        <option value="4">Educação física</option>
+                        <option value="5">Física</option>
+                        <option value="6">Geografia</option>
+                        <option value="7">História</option>
+                        <option value="8">Matemática</option>
+                        <option value="9">Português</option>
+                        <option value="10">Química</option>
+                    </select>
+                </div> 
+
+                <div class="select-block">
+                    <label for="weekday">Dia da Semana</label>
+                    <select name="weekday" id="weekday">
+                        <option value="" disabled="" hidden="">Selecione um dia</option>
+                        <option value="0">Domingo</option>
+                        <option value="1">Segunda</option>
+                        <option value="2">Terça</option>
+                        <option value="3">Quarta</option>
+                        <option value="4">Quinta</option>
+                        <option value="5">Sexta</option>
+                        <option value="6 ">Sabado</option>
+                    </select>
+                </div> 
+
+                <div class="input-block">
+                    <label for="time">Hora</label>
+                    <input type="time" name="time" id="time">
+                </div>
+                <button class="submit">Filtrar</button>
+           </form>
+        </header>   
+        
+        <main>
+            <article class="teacher-item">
+                <header>
+                    <img src="https://avatars1.githubusercontent.com/u/65436800?s=460&u=36c13c7088da6b2ebf246f336126f9ba464aa695&v=4" alt="Leonardo Oliveira">
+                    <div>
+                        <strong>Leonardo Oliveira</strong>
+                        <span>Matematica</span>
+                    </div>
+                </header>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit <br></br> Modi soluta odit maiores corporis tenetur placeat ullam illum, a aliquam eos nisi magni tempora neque ab sit! Reprehenderit nesciunt ea a.</p>
+                <footer>
+                    <p>Preço/hora <strong>R$20,00</strong></p>
+                    <button type="button"><img src="./images/icons/whatsapp.svg" alt="whatsapp">Entrar em contato</button>
+                </footer>
+            </article>
+
+            <article class="teacher-item">
+                <header>
+                    <img src="https://avatars3.githubusercontent.com/u/65436800?s=460&v=4" alt="Leonardo Oliveira">
+                    <div>
+                        <strong>Leonardo Oliveira</strong>
+                        <span>Matematica</span>
+                    </div>
+                </header>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit <br></br> . Modi soluta odit maiores corporis tenetur placeat ullam illum, a aliquam eos nisi magni tempora neque ab sit! Reprehenderit nesciunt ea a.</p>
+                <footer>
+                    <p>Preço/hora <strong>R$20,00</strong></p>
+                    <button type="button"><img src="./images/icons/whatsapp.svg" alt="whatsapp">Entrar em contato</button>
+                </footer>
+            </article>
+        </main>
+    </div>
+    
+    
+
+   
+    <script src="https://kit.fontawesome.com/392610c469.js" crossorigin="anonymous"></script>
+</body>
+</html>
