@@ -6,11 +6,6 @@
     text-decoration: none;
 }
 
-/* html, body{
-    /* height: 820px; */
-
-} */
-
 
 #page-study #container{
     width: 100vw;
@@ -126,7 +121,7 @@
     display: block;
 }
 
-.teacher-item footer button{
+.teacher-item footer .button{
     width: 10rem;
     height: 2.8rem;
     background-color: #04D361;
@@ -143,7 +138,7 @@
     margin-left: 0.8rem;
 }
 
-.teacher-item footer button:hover{
+.teacher-item footer .button:hover{
 
     background-color: #04BF58;
 }
