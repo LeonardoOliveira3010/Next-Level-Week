@@ -143,12 +143,12 @@
     background-color: #04BF58;
 }
 
+#page-study main .no-results{
+    max-width:  300px;
+    margin: 6rem auto;
+    text-align: center;
 
-
-
-
-
-
+}
 
 @media (min-width: 700px){
 

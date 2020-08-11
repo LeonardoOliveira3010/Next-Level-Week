@@ -60,26 +60,29 @@
         
         <main>
 
-            {%for proffy in proffys %}
-                <article class="teacher-item">
-                    <header>
-                        <img src="{{proffy.avatar}}" alt="Leonardo Oliveira">
-                        <div>
-                            <strong>{{proffy.name}}</strong>
-                            <span>{{proffy.subject}}</span>
-                        </div>
-                    </header>
-                    <p>{{proffy.bio}}</p>
-                    <footer>
-                        <p>Preço/hora <strong>R$ {{proffy.cost}}</strong></p>
-                        <a class="button" href="https://wa.me/{{proffy.whatsapp}}?text=Olá%20Seja%20Bem%20Vindo%20ao%20Proffy%20{{proffy.name}}">
-                        <img src="/images/icons/whatsapp.svg" alt="">Entrar em contato</a>
-                    </footer>
-                </article>
-            {%endfor%}
+            {% if proffys == "" %}
+                <p class="no-results">Nenhum Proffy encontrado com a sua pesquisa</p>
+            {% else %}
 
-            
+                {%for proffy in proffys %}
+                    <article class="teacher-item">
+                        <header>
+                            <img src="{{proffy.avatar}}" alt="Leonardo Oliveira">
+                            <div>
+                                <strong>{{proffy.name}}</strong>
+                                <span>{{proffy.subject}}</span>
+                            </div>
+                        </header>
+                        <p>{{proffy.bio}}</p>
+                        <footer>
+                            <p>Preço/hora <strong>R$ {{proffy.cost}}</strong></p>
+                            <a class="button" href="https://wa.me/{{proffy.whatsapp}}?text=Olá%20Seja%20Bem%20Vindo%20ao%20Proffy%20{{proffy.name}}">
+                            <img src="/images/icons/whatsapp.svg" alt="">Entrar em contato</a>
+                        </footer>
+                    </article>
+                {%endfor%}
 
+            {% endif %}
             <!-- <article class="teacher-item">
                 <header>
                     <img src="https://avatars3.githubusercontent.com/u/65436800?s=460&v=4" alt="Leonardo Oliveira">
