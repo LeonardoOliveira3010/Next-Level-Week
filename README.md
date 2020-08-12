@@ -16,7 +16,7 @@ Mobile
 
 ![proffymobile](https://user-images.githubusercontent.com/65436800/89969267-7e6abd00-dc45-11ea-81f8-56fe60c88308.png)
 
-# tecnologias utilizadas
+# Tecnologias utilizadas
 
 HTML
 CSS
@@ -28,14 +28,14 @@ SQLite
 
 # Como executar o Projeto Proffy
 
-# Clonar o repositório
+#### Clonar o repositório
 git clone https://github.com/LeonardoOliveira3010/Next-Level-Week.git
 
-# Entrar no diretório
+#### Entrar no diretório
 cd nlw
 
-# Baixar as dependências
+#### Baixar as dependências
 npm i
 
-# Executar o servidor
+#### Executar o servidor
 npm run dev
