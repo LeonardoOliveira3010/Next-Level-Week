@@ -12,7 +12,7 @@ Desktop
 
 
 Mobile
-https://camo.githubusercontent.com/c32c5acf7b7b85bb55529da9f1453523b994cbaa/68747470733a2f2f692e696d6775722e636f6d2f703732373552392e706e67
+![proffymobile](https://user-images.githubusercontent.com/65436800/89969267-7e6abd00-dc45-11ea-81f8-56fe60c88308.png)
 
 # tecnologias utilizadas
 
