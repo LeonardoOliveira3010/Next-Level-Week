@@ -8,7 +8,8 @@ Professores podem se cadastrar na plataforma para ensinarem alunos interessados,
 
 
 Desktop
-https://camo.githubusercontent.com/7740d7fd621ddaf18898c45ec7353146ec7a7ddc/68747470733a2f2f692e696d6775722e636f6d2f4c74744f5a596e2e706e67
+![ProffyDesktop](https://user-images.githubusercontent.com/65436800/89969212-609d5800-dc45-11ea-9b85-521ce69d92cc.png)
+
 
 Mobile
 https://camo.githubusercontent.com/c32c5acf7b7b85bb55529da9f1453523b994cbaa/68747470733a2f2f692e696d6775722e636f6d2f703732373552392e706e67
