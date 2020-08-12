@@ -8,10 +8,12 @@ Professores podem se cadastrar na plataforma para ensinarem alunos interessados,
 
 
 Desktop
+
 ![ProffyDesktop](https://user-images.githubusercontent.com/65436800/89969212-609d5800-dc45-11ea-9b85-521ce69d92cc.png)
 
 
 Mobile
+
 ![proffymobile](https://user-images.githubusercontent.com/65436800/89969267-7e6abd00-dc45-11ea-81f8-56fe60c88308.png)
 
 # tecnologias utilizadas
