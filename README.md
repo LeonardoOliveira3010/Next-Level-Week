@@ -20,16 +20,17 @@ HTML
 CSS
 JavaScript
 Node.js
+nodemon
 Nunjucks
 SQLite
 
 # Como executar o Projeto Proffy
 
 # Clonar o repositório
-git clone https://github.com/phedrakeson/proffy
+git clone https://github.com/LeonardoOliveira3010/Next-Level-Week.git
 
 # Entrar no diretório
-cd proffy
+cd nlw
 
 # Baixar as dependências
 npm i
